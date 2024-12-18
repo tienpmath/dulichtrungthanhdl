@@ -31,6 +31,9 @@ export const metadata: Metadata = {
   description:
     "Thuê xe ô tô Đà Lạt, 4 chỗ, 7 chỗ, 16 chỗ, 29 chỗ có tài xế du lịch Đà Lạt",
   metadataBase: new URL("https://dulichtrungthanhdalat.com"),
+  icons: {
+    icon: "/images/favicon.ico",
+  },
 };
 
 // Revalidate content every hour
@@ -82,7 +85,7 @@ const Nav = ({ className, children, id }: NavProps) => {
           className="hover:opacity-75 transition-all flex gap-2 items-center"
           href="/"
         >
-          <h2 className="sr-only">CHÀO MỪNG TIẾN DEV</h2>
+          <h2 className="sr-only">Thuê xe ô tô 7 chỗ Đà Lạt</h2>
           <Image
             src={Logo}
             alt="Logo"
@@ -94,17 +97,18 @@ const Nav = ({ className, children, id }: NavProps) => {
         {children}
         <div className="flex items-center gap-2">
           <div className="mx-2 hidden md:flex">
-            {Object.entries(mainMenu).map(([key, href]) => (
-              <Button key={href} asChild variant="ghost" size="sm">
-                <Link href={href}>
-                  {key.charAt(0).toUpperCase() + key.slice(1)}
-                  m1
-                </Link>
-              </Button>
-            ))}
+            <Button asChild variant="ghost" size="sm">
+              <Link href="/gioi-thieu">Giới thiệu</Link>
+            </Button>
+            <Button asChild variant="ghost" size="sm">
+              <Link href="/lien-he">Liên hệ</Link>
+            </Button>
+            <Button asChild variant="ghost" size="sm">
+              <Link href="/posts">Thuê xe ô tô Đà Lạt</Link>
+            </Button>
           </div>
           <Button asChild className="hidden sm:flex">
-            <Link href="https://github.com/9d8dev/next-wp">Get Started</Link>
+            <Link href="tel:0918638068">0918 638 068</Link>
           </Button>
           <MobileNav />
         </div>

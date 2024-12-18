@@ -10,7 +10,22 @@ import { File, Pen, Tag, Boxes, User, Folder } from "lucide-react";
 import Footers from "@/components/footer/Footer";
 import MainPage from "@/components/home/MainPage";
 import { Snippet } from "next/font/google";
-
+export const metadata = {
+  title:
+    "Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt",
+  description:
+    "Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt giá rẻ ✔️✔️ có tài, uy tín tại Đà Lạt.☎️ 0918 638 068 chuyên thuê ô tô xe đời mới✔️✔️ đưa đón tận nơi",
+  openGraph: {
+    title:
+      "Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt",
+    description:
+      "Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt giá rẻ ✔️✔️ có tài, uy tín tại Đà Lạt.☎️ 0918 638 068 chuyên thuê ô tô xe đời mới✔️✔️ đưa đón tận nơi",
+    images: "/images/logo.jpg",
+  },
+  icons: {
+    icon: "/images/favicon.ico",
+  },
+};
 // This page is using the craft.tsx component and design system
 export default function Home() {
   return (
