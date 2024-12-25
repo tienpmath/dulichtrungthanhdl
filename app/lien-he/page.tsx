@@ -1,12 +1,16 @@
 export const metadata = {
-  title: 'Liên hệ  dịch vụ thuê xe ô tô 7 chỗ Đà Lạt và xe ô tô 16 chỗ du lịch tham quan nội thành Đà Lạt',
+  title: "Liên hệ Thuê xe ô tô Đà Lạt 4,5,7,16,29 chỗ tham quan du lịch Đà Lạt",
   description:
-    'Liên hệ  dịch vụ thuê xe ô tô 7 chỗ Đà Lạt và xe ô tô 16 chỗ ✔️✔️ du lịch tham quan nội thành Đà Lạt. ☎️ 0918 638 068 chuyên cho thuê ô tô xe đời mới✔️✔️ có tài xế đưa đón sân bay',
+    "Liên hệ Thuê xe ô tô Đà Lạt 4,5,7,16,29. ☎️ 0918 638 068 Thuê xe du lịch Đà Lạt đón tiễn sân bay, Xe ô tô 7 chỗ, 900.000 VNĐ/ngày, Xe 16 chỗ, 1.300.000 VNĐ/ngày, Xe ô tô 29 chỗ, 2.500.000 VNĐ/ngày, tham quan nội, ngoại thành 1/2 ngày giá 600.000đ ",
   openGraph: {
-    title: 'Liên hệ dịch vụ thuê xe ô tô 7 chỗ Đà Lạt và xe ô tô 16 chỗ du lịch tham quan nội thành Đà Lạt',
+    title:
+      "Liên hệ Thuê xe ô tô Đà Lạt 4,5,7,16,29 chỗ tham quan du lịch Đà Lạt",
     description:
-      'Liên hệ dịch vụ thuê xe ô tô 7 chỗ Đà Lạt và xe ô tô 16 chỗ ✔️✔️ du lịch tham quan nội thành Đà Lạt. ☎️ 0918 638 068 chuyên cho thuê ô tô xe đời mới✔️✔️ có tài xế đưa đón sân bay',
-    images: '/images/logo.jpg',
+      "Liên hệ Thuê xe ô tô Đà Lạt 4,5,7,16,29. ☎️ 0918 638 068 Thuê xe du lịch Đà Lạt đón tiễn sân bay, Xe ô tô 7 chỗ, 900.000 VNĐ/ngày, Xe 16 chỗ, 1.300.000 VNĐ/ngày, Xe ô tô 29 chỗ, 2.500.000 VNĐ/ngày, tham quan nội, ngoại thành 1/2 ngày giá 600.000đ ",
+    images: "/images/logo.jpg",
+  },
+  icons: {
+    icon: "/images/favicon.ico",
   },
 };
 const Contact = () => {
@@ -16,13 +20,15 @@ const Contact = () => {
         <div className="container mx-auto px-6 py-12">
           <div className="text-center">
             <h1 className="font-medium text-blue-500 dark:text-blue-400">
-              Liên hệ Thuê xe du lịch Đà Lạt - tham quan Đà Lạt - Đưa đón sân bay
+              Liên hệ Thuê xe du lịch Đà Lạt - tham quan Đà Lạt - Đưa đón sân
+              bay
             </h1>
             <h2 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
               Liên hệ thuê xe ô tô 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt
             </h2>
             <p className="mt-3 text-gray-500 dark:text-gray-400">
-              Chúng tôi cam kết giá cả cạnh tranh, tư vấn miễn phí, tài xế đưa đón tận tình, chu đáo
+              Chúng tôi cam kết giá cả cạnh tranh, tư vấn miễn phí, tài xế đưa
+              đón tận tình, chu đáo
             </p>
           </div>
           <div className="mt-10 grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
@@ -43,11 +49,16 @@ const Contact = () => {
                   />
                 </svg>
               </span>
-              <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
+              <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+                Email
+              </h2>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Liên hệ thuê xe 7 chỗ, 16 chỗ Đà Lạt, chúng tôi phản hồi nhanh chóng
+                Liên hệ thuê xe 7 chỗ, 16 chỗ Đà Lạt, chúng tôi phản hồi nhanh
+                chóng
               </p>
-              <p className="mt-2 text-blue-500 dark:text-blue-400">Trungthanhdalattravel@gmail.com</p>
+              <p className="mt-2 text-blue-500 dark:text-blue-400">
+                Trungthanhdalattravel@gmail.com
+              </p>
             </div>
 
             <div className="flex flex-col items-center justify-center text-center">
@@ -67,9 +78,15 @@ const Contact = () => {
                   />
                 </svg>
               </span>
-              <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Phone</h2>
-              <p className="mt-2 text-gray-500 dark:text-gray-400">Làm việc từ 6h-20h mỗi ngày</p>
-              <p className="mt-2 text-blue-500 dark:text-blue-400">0918 638 068</p>
+              <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+                Phone
+              </h2>
+              <p className="mt-2 text-gray-500 dark:text-gray-400">
+                Làm việc từ 6h-20h mỗi ngày
+              </p>
+              <p className="mt-2 text-blue-500 dark:text-blue-400">
+                0918 638 068
+              </p>
             </div>
           </div>
         </div>

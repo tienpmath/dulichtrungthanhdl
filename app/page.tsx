@@ -11,15 +11,13 @@ import Footers from "@/components/footer/Footer";
 import MainPage from "@/components/home/MainPage";
 import { Snippet } from "next/font/google";
 export const metadata = {
-  title:
-    "Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt",
+  title: "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29 chỗ tham quan du lịch Đà Lạt",
   description:
-    "Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt giá rẻ ✔️✔️ có tài, uy tín tại Đà Lạt.☎️ 0918 638 068 chuyên thuê ô tô xe đời mới✔️✔️ đưa đón tận nơi",
+    "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29. ☎️ 0918 638 068 Thuê xe du lịch Đà Lạt đón tiễn sân bay, Xe ô tô 7 chỗ, 900.000 VNĐ/ngày, Xe 16 chỗ, 1.300.000 VNĐ/ngày, Xe ô tô 29 chỗ, 2.500.000 VNĐ/ngày, tham quan nội, ngoại thành 1/2 ngày giá 600.000đ ",
   openGraph: {
-    title:
-      "Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt",
+    title: "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29 chỗ tham quan du lịch Đà Lạt",
     description:
-      "Thuê xe từ 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ du lịch Đà Lạt, Tour nội thành, ngoại thành Đà Lạt giá rẻ ✔️✔️ có tài, uy tín tại Đà Lạt.☎️ 0918 638 068 chuyên thuê ô tô xe đời mới✔️✔️ đưa đón tận nơi",
+      "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29. ☎️ 0918 638 068 Thuê xe du lịch Đà Lạt đón tiễn sân bay, Xe ô tô 7 chỗ, 900.000 VNĐ/ngày, Xe 16 chỗ, 1.300.000 VNĐ/ngày, Xe ô tô 29 chỗ, 2.500.000 VNĐ/ngày, tham quan nội, ngoại thành 1/2 ngày giá 600.000đ ",
     images: "/images/logo.jpg",
   },
   icons: {
@@ -68,10 +66,9 @@ const ExampleJsx = () => {
       <section className="bg-white dark:bg-gray-900">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              Du lịch Trung Thành chuyên tổ chức các tour nội thành Đà Lạt,
-              ngoại thành Đà Lạt, thuê xr 5, chỗ, 7 chỗ, 16 chỗ Đà Lạt
-            </h2>
+            <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29 chỗ tham quan du lịch Đà Lạt
+            </h1>
             <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
               Cùng khám phá thành phố ngàn hoa
             </p>
@@ -129,26 +126,15 @@ const ExampleJsx = () => {
         </div>
       </section>
       {/* Vercel Clone Starter */}
-      <a
-        className="h-16 block"
-        href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F9d8dev%2Fnext-wp&env=WORDPRESS_URL,WORDPRESS_HOSTNAME&envDescription=Add%20WordPress%20URL%20with%20Rest%20API%20enabled%20(ie.%20https%3A%2F%2Fwp.example.com)%20abd%20the%20hostname%20for%20Image%20rendering%20in%20Next%20JS%20(ie.%20wp.example.com)&project-name=next-wp&repository-name=next-wp&demo-title=Next%20JS%20and%20WordPress%20Starter&demo-url=https%3A%2F%2Fwp.9d8.dev"
-      >
+      <a className="h-16 block" href="/bang-gia">
         {/* eslint-disable-next-line */}
-        <img
-          className="not-prose my-4"
-          src="https://vercel.com/button"
-          alt="Deploy with Vercel"
-        />
+        Bảng giá tham quan thuê xe ô tô du lịch Đà Lạt
       </a>
       <p>
-        This is <a href="https://github.com/9d8dev/next-wp">next-wp</a>, created
-        as a way to build WordPress sites with Next.js at rapid speed. This
-        starter is designed with <a href="https://ui.shadcn.com">shadcn/ui</a>,{" "}
-        <a href="https://github.com/brijr/craft">brijr/craft</a>, and Tailwind
-        CSS. Use <a href="https://components.bridger.to">brijr/components</a> to
-        build your site with prebuilt components. The data fetching and
-        typesafety is handled in <code>lib/WordPress.ts</code> and{" "}
-        <code>lib/WordPress.d.ts</code>. Questions? Email 9d8dev@gmail.com
+        Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29. ☎️ 0918 638 068 Thuê xe du lịch Đà
+        Lạt đón tiễn sân bay, Xe ô tô 7 chỗ, 900.000 VNĐ/ngày, Xe 16 chỗ,
+        1.300.000 VNĐ/ngày, Xe ô tô 29 chỗ, 2.500.000 VNĐ/ngày, tham quan nội,
+        ngoại thành 1/2 ngày giá 600.000đ
       </p>
       <div className="grid md:grid-cols-3 gap-4 mt-6 not-prose">
         <Link
@@ -157,9 +143,9 @@ const ExampleJsx = () => {
         >
           <Pen size={32} />
           <span>
-            Posts{" "}
+            Bài viết du lịch Đà Lạt{" "}
             <span className="block text-sm text-muted-foreground">
-              All posts from your WordPress
+              Xem tất cả bài viết
             </span>
           </span>
         </Link>
@@ -169,33 +155,23 @@ const ExampleJsx = () => {
         >
           <File size={32} />
           <span>
-            Pages{" "}
+            Trang Thuê xe Du lịch Đà Lạt{" "}
             <span className="block text-sm text-muted-foreground">
-              Custom pages from your WordPress
+              Xem tất cả các trang mới về Tour, Thuê xe ô tô, tham quan nội
+              thành, ngoại thành Đà Lạt 1 ngày
             </span>
           </span>
         </Link>
-        <Link
-          className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all"
-          href="/posts/authors"
-        >
-          <User size={32} />
-          <span>
-            Authors{" "}
-            <span className="block text-sm text-muted-foreground">
-              List of the authors from your WordPress
-            </span>
-          </span>
-        </Link>
+
         <Link
           className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all"
           href="/posts/tags"
         >
           <Tag size={32} />
           <span>
-            Tags{" "}
+            Xem các nhóm bài viết{" "}
             <span className="block text-sm text-muted-foreground">
-              Content by tags from your WordPress
+              Danh sách các bài viết liên quan
             </span>
           </span>
         </Link>
@@ -205,24 +181,12 @@ const ExampleJsx = () => {
         >
           <Boxes size={32} />
           <span>
-            Categories{" "}
+            Danh mục{" "}
             <span className="block text-sm text-muted-foreground">
-              Categories from your WordPress
+              Các danh mục Thuê xe từ 4,5,7,16,29 chô Đà Lạt
             </span>
           </span>
         </Link>
-        <a
-          className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all"
-          href="https://github.com/9d8dev/next-wp"
-        >
-          <Folder size={32} />
-          <span>
-            Documentation{" "}
-            <span className="block text-sm text-muted-foreground">
-              How to use `next-wp`
-            </span>
-          </span>
-        </a>
       </div>
       <section className="bg-white dark:bg-gray-900">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">

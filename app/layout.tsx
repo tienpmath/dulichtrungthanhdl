@@ -25,17 +25,20 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
-export const metadata: Metadata = {
-  title:
-    "Thuê xe ô tô Đà Lạt, 4 chỗ, 7 chỗ, 16 chỗ, 29 chỗ có tài xế du lịch Đà Lạt",
+export const metadata = {
+  title: "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29 chỗ tham quan du lịch Đà Lạt",
   description:
-    "Thuê xe ô tô Đà Lạt, 4 chỗ, 7 chỗ, 16 chỗ, 29 chỗ có tài xế du lịch Đà Lạt",
-  metadataBase: new URL("https://dulichtrungthanhdalat.com"),
+    "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29. ☎️ 0918 638 068 Thuê xe du lịch Đà Lạt đón tiễn sân bay, Xe ô tô 7 chỗ, 900.000 VNĐ/ngày, Xe 16 chỗ, 1.300.000 VNĐ/ngày, Xe ô tô 29 chỗ, 2.500.000 VNĐ/ngày, tham quan nội, ngoại thành 1/2 ngày giá 600.000đ ",
+  openGraph: {
+    title: "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29 chỗ tham quan du lịch Đà Lạt",
+    description:
+      "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29. ☎️ 0918 638 068 Thuê xe du lịch Đà Lạt đón tiễn sân bay, Xe ô tô 7 chỗ, 900.000 VNĐ/ngày, Xe 16 chỗ, 1.300.000 VNĐ/ngày, Xe ô tô 29 chỗ, 2.500.000 VNĐ/ngày, tham quan nội, ngoại thành 1/2 ngày giá 600.000đ ",
+    images: "/images/logo.jpg",
+  },
   icons: {
     icon: "/images/favicon.ico",
   },
 };
-
 // Revalidate content every hour
 export const revalidate = 3600;
 
