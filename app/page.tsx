@@ -11,13 +11,13 @@ import Footers from "@/components/footer/Footer";
 import MainPage from "@/components/home/MainPage";
 import { Snippet } from "next/font/google";
 export const metadata = {
-  title: "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29 chỗ tham quan du lịch Đà Lạt",
+  title: "Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ và 29 chỗ Đà Lạt",
   description:
-    "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29. ☎️ 0918 638 068 Thuê xe du lịch Đà Lạt đón tiễn sân bay, Xe ô tô 7 chỗ, 900.000 VNĐ/ngày, Xe 16 chỗ, 1.300.000 VNĐ/ngày, Xe ô tô 29 chỗ, 2.500.000 VNĐ/ngày, tham quan nội, ngoại thành 1/2 ngày giá 600.000đ ",
+    "Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ và 29 chỗ Đà Lạt. Thuê xe ô tô du lịch Đà Lạt giá rẻ ☎️ 0918 638 068 Thuê xe du lịch Đà Lạt đón tiễn sân bay, Xe ô tô 7 chỗ, 900.000 VNĐ/ngày, Xe 16 chỗ, 1.300.000 VNĐ/ngày, Xe ô tô 29 chỗ, 2.500.000 VNĐ/ngày, tham quan nội, ngoại thành 1/2 ngày giá 600.000đ ",
   openGraph: {
-    title: "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29 chỗ tham quan du lịch Đà Lạt",
+    title: "Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ và 29 chỗ Đà Lạt",
     description:
-      "Giá Thuê xe ô tô Đà Lạt 4,5,7,16,29. ☎️ 0918 638 068 Thuê xe du lịch Đà Lạt đón tiễn sân bay, Xe ô tô 7 chỗ, 900.000 VNĐ/ngày, Xe 16 chỗ, 1.300.000 VNĐ/ngày, Xe ô tô 29 chỗ, 2.500.000 VNĐ/ngày, tham quan nội, ngoại thành 1/2 ngày giá 600.000đ ",
+      "Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ và 29 chỗ Đà Lạt. Thuê xe ô tô du lịch Đà Lạt giá rẻ ☎️ 0918 638 068 Thuê xe du lịch Đà Lạt đón tiễn sân bay, Xe ô tô 7 chỗ, 900.000 VNĐ/ngày, Xe 16 chỗ, 1.300.000 VNĐ/ngày, Xe ô tô 29 chỗ, 2.500.000 VNĐ/ngày, tham quan nội, ngoại thành 1/2 ngày giá 600.000đ ",
     images: "/images/logo.jpg",
   },
   icons: {
